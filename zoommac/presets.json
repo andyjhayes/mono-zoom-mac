@@ -1,0 +1,379 @@
+{
+	"button":[
+		{
+			"name": "toggleHand",
+			"label": "Raise\/Lower Hand",
+			"info": "",
+			"press": {
+				"key": "y",
+				"modifiers": [
+					"alt"
+				],
+				"name": "y",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleMute",
+			"label": "Audio.Toggle Mute",
+			"press": {
+				"key": "a",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "a",
+				"virtual": true
+			}
+		},
+		{
+			"name": "pushToTalk",
+			"label": "Audio.Push to Talk",
+			"info": "When muted, press and hold this key to temporarily unmute.",
+			"press": {
+				"key": "space",
+				"modifiers": [],
+				"name": "space",
+				"virtual": false
+			}
+		},
+		{
+			"name": "muteAll",
+			"label": "Audio.Mute All Attendees",
+			"info": "Mutes audio for all attendees except for the host.\nPress and hold to request all attendees unmute.\n\nNote:This functionality is only available while hosting.",
+			"press": {
+				"key": "m",
+				"modifiers": [
+					"control",
+					"meta"
+				],
+				"name": "m",
+				"virtual": true
+			},
+			"pressAndHold": {
+				"key": "u",
+				"modifiers": [
+					"control",
+					"meta"
+				],
+				"name": "u",
+				"virtual": true
+			}
+		},
+		{
+			"name": "unmuteAll",
+			"label": "Audio.Ask to Unmute All",
+			"info": "Requests all attendees to unmute their audio.\nPress and hold to mute all attendees.\n\nNote:This functionality is only available while hosting.",
+			"press": {
+				"key": "u",
+				"modifiers": [
+					"control",
+					"meta"
+				],
+				"name": "u",
+				"virtual": true
+			},
+			"pressAndHold": {
+				"key": "m",
+				"modifiers": [
+					"control",
+					"meta"
+				],
+				"name": "m",
+				"virtual": true
+			}
+		},
+		{
+			"name": "startMeeting",
+			"label": "Meeting.Start Meeting",
+			"press": {
+				"key": "v",
+				"modifiers": [
+					"control",
+					"meta"
+				],
+				"name": "v",
+				"virtual": true
+			}
+		},
+		{
+			"name": "joinMeeting",
+			"label": "Meeting.Join Meeting",
+			"press": {
+				"key": "j",
+				"modifiers": [
+					"meta"
+				],
+				"name": "j",
+				"virtual": true
+			}
+		},
+		{
+			"name": "scheduleMeeting",
+			"label": "Meeting.Schedule Meeting",
+			"press": {
+				"key": "d",
+				"modifiers": [
+					"meta"
+				],
+				"name": "d",
+				"virtual": true
+			}
+		},
+		{
+			"name": "endMeeting",
+			"label": "Meeting.End Meeting",
+			"info": "Press to end meeting.\n\nNote: if not in a meeting, this will close the current Zoom window.",
+			"press": {
+				"key": "w",
+				"modifiers": [
+					"meta"
+				],
+				"name": "w",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleLocalRecording",
+			"label": "Recording.Start\/Stop Local Recording",
+			"info": "",
+			"press": {
+				"key": "r",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "r",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleCloudRecording",
+			"label": "Recording.Start\/Stop Cloud Recording",
+			"info": "",
+			"press": {
+				"key": "c",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "c",
+				"virtual": true
+			}
+		},
+		{
+			"name": "pauseRecording",
+			"label": "Recording.Pause\/Resume Recording",
+			"info": "",
+			"press": {
+				"key": "p",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "p",
+				"virtual": true
+			}
+		},
+		{
+			"name": "startRemote",
+			"label": "Remote Control.Begin Remote Control",
+			"info": "Press to begin remote control.\nPress and hold to revoke\/give up remote control.",
+			"press": {
+				"key": "r",
+				"modifiers": [
+					"control",
+					"shift"
+				],
+				"name": "r",
+				"virtual": true
+			},
+			"pressAndHold": {
+				"key": "g",
+				"modifiers": [
+					"control",
+					"shift"
+				],
+				"name": "g",
+				"virtual": true
+			}
+		},
+		{
+			"name": "endRemote",
+			"label": "Remote Control.End Remote Control",
+			"info": "Press to revoke\/give up remote control.",
+			"press": {
+				"key": "g",
+				"modifiers": [
+					"control",
+					"shift"
+				],
+				"name": "g",
+				"virtual": true
+			}
+		},
+		{
+			"name": "shareDefaultScreen",
+			"label": "Screen Sharing.Share Default Screen",
+			"info": "",
+			"press": {
+				"interval": 25,
+				"macro": [
+					{
+						"key": "s",
+						"modifiers": [
+							"shift",
+							"meta"
+						],
+						"name": "s",
+						"virtual": true
+					},
+					{
+						"key": "enter",
+						"modifiers": [],
+						"name": "enter",
+						"virtual": true
+					}
+				]
+			}
+		},
+		{
+			"name": "toggleScreenSharing",
+			"label": "Screen Sharing.Start\/Stop Screen Sharing",
+			"info": "",
+			"press": {
+				"key": "s",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "s",
+				"virtual": true
+			}
+		},
+		{
+			"name": "pauseScreenSharing",
+			"label": "Screen Sharing.Pause\/Resume Screen Sharing",
+			"info": "Press to pause or resume screen sharing.\nPress and hold to stop screen sharing.",
+			"press": {
+				"key": "t",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "t",
+				"virtual": true
+			},
+			"pressAndHold": {
+				"key": "s",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "s",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleVideo",
+			"label": "Video.Start\/Stop Video",
+			"info": "",
+			"press": {
+				"key": "v",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "v",
+				"virtual": true
+			}
+		},
+		{
+			"name": "switchCamera",
+			"label": "Video.Switch Camera",
+			"info": "",
+			"press": {
+				"key": "n",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "n",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleParticipants",
+			"label": "Window.Toggle Participants Panel",
+			"info": "",
+			"press": {
+				"key": "u",
+				"modifiers": [
+					"meta"
+				],
+				"name": "u",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleParticipants",
+			"label": "Window.Toggle Chat Panel",
+			"info": "",
+			"press": {
+				"key": "h",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "h",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleFloatingControls",
+			"label": "Window.Toggle Floating Controls",
+			"info": "",
+			"press": {
+				"key": "h",
+				"modifiers": [
+					"control",
+					"alt",
+					"meta"
+				],
+				"name": "h",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleMinimalWindow",
+			"label": "Window.Toggle Minimal Window",
+			"info": "",
+			"press": {
+				"key": "m",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "m",
+				"virtual": true
+			}
+		},
+		{
+			"name": "toggleFullScreen",
+			"label": "Window.Toggle Full Screen",
+			"info": "",
+			"press": {
+				"key": "f",
+				"modifiers": [
+					"shift",
+					"meta"
+				],
+				"name": "f",
+				"virtual": true
+			}
+		}
+	],
+	"dial":[],
+	"orbiter":[],
+	"slider":[]
+}

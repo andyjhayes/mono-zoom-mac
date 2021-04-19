@@ -1,0 +1,9 @@
+{
+    "name": "Zoom",
+    "id": "us.zoom.xos",
+    "bundle": [
+      "us.zoom.xos"
+    ],
+    "exclusive": "mac",
+    "connection": []
+}
