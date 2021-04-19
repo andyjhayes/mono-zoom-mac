@@ -1,2 +1,2 @@
-# mono-zoom-mac
-Monogram for Zoom (macOS)
+# Monogram for Zoom on macOS (Unofficial)
+
