@@ -1,4 +1,4 @@
-# Monogram for Zoom.us on macOS (Unofficial)
+# Monogram + Zoom.us for macOS (Unofficial)
 
 This is a collection of Monogram button/key presets for the Zoom.us app on macOS.
 
