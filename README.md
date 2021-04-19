@@ -1,12 +1,12 @@
 # Monogram for Zoom.us on macOS (Unofficial)
 
-This is a collection of Monogram key presets for the Zoom.us app on macOS.
+This is a collection of Monogram button/key presets for the Zoom.us app on macOS.
 
 ### Prerequisites ###
 
 - Mac (OS version 10.12 or later required, 10.13 or later recommended)
 - [Monogram Creator](https://monogramcc.com/download/) (Version 4.1 or later recommended)
-- [Monogram Creative Console](https://monogramcc.com/) (note:  Palette Gear dial, button, or slider modules _must_ be connected to a Monogram core module to work as intended.)
+- [Monogram Creative Console or Palette Gear](https://monogramcc.com/)
 - [Zoom.us macOS Client](https://zoom.us/download#client_4meeting) (Version 5.4.1 or later recommended)
 
 ---
@@ -15,10 +15,10 @@ This is a collection of Monogram key presets for the Zoom.us app on macOS.
 
 ### Add integration bundle to Monogram Creator ###
 
-1. In Monogram Creator, go to File > Preferences > Integrations.
+1. In Monogram Creator, go to Creator > Preferences > Integrations.
 2. Hit the + button (lower right); this should open a file browser.
 3. Browse for your <code>mono-zoom-mac-main</code> folder, then double-click it to look inside for the <code>zoommac</code> folder.
-4. Select the <code>zoommac</code> folder without opening it, then hit "Select Folder" (bottom right).
+4. Select the <code>zoommac</code> folder, then hit "Open" (bottom right).
 
 ---
 
