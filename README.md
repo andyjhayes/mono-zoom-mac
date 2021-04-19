@@ -24,7 +24,7 @@ This is a collection of Monogram button/key presets for the Zoom.us app on macOS
 
 ## Disclaimers ##
 
-This is purely a homebrewed set of Monogram presets for Zoom.us based off of keyboard shortcuts. A few things to keep in mind:
+This is a homebrewed set of Monogram presets for Zoom.us based purely off of pre-assigned keyboard shortcuts. A few things to keep in mind:
 
 - It isn't developed or endorsed by either company. 
 - It's provided with no warranty and it may not work on your system.
