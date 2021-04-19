@@ -33,7 +33,7 @@ This is purely a homebrewed set of Monogram presets for Zoom.us based off of key
 
 ### Known Limitations ###
 
-- These are button/key presets _only_--no dial, slider, or Orbiter presets. Use macOS mode to assign system-level controls like volume, brightness, and scroll to your other modules.
+- These are button/key presets _only_ - no dial, slider, or Orbiter presets. Use macOS mode to assign system-level controls like volume, brightness, and scroll to your other modules.
 - By default, these actions only work when a Zoom.us window is focused; this may cause problems when sharing your screen or using remote access.
 - Workaround for above: go to Zoom.us > Preferences > Keyboard Shortcuts, and select "Enable Global Shortcuts" next to any/all desired shortcuts.
 - Some assignments depend on keyboard shortcuts and may not work with certain non-US/non-English localizations or non-QWERTY keyboard layouts.
